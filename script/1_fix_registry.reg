@@ -1,0 +1,95 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_CLASSES_ROOT\.URL]
+
+[HKEY_CLASSES_ROOT\.URL]
+@="InternetShortcut"
+
+[HKEY_CLASSES_ROOT\.URL\OpenWithProgIds]
+"InternetShortcut"=""
+
+[HKEY_CLASSES_ROOT\.URL\PersistentHandler]
+@="{8CD34779-9F10-4f9b-ADFB-B3FAEABDAB5A}"
+
+[HKEY_CLASSES_ROOT\.URL\ShellEx\{000214EE-0000-0000-C000-000000000046}]
+@="{FBF23B40-E3F0-101B-8488-00AA003E56F8}"
+
+[HKEY_CLASSES_ROOT\.URL\ShellEx\{000214F9-0000-0000-C000-000000000046}]
+@="{FBF23B40-E3F0-101B-8488-00AA003E56F8}"
+
+[HKEY_CLASSES_ROOT\.URL\ShellEx\{00021500-0000-0000-C000-000000000046}]
+@="{FBF23B40-E3F0-101B-8488-00AA003E56F8}"
+
+[HKEY_CLASSES_ROOT\.URL\ShellEx\{CABB0DA0-DA57-11CF-9974-0020AFD79762}]
+@="{FBF23B40-E3F0-101B-8488-00AA003E56F8}"
+
+[HKEY_CLASSES_ROOT\.URL\ShellEx\{FBF23B80-E3F0-101B-8488-00AA003E56F8}]
+@="{FBF23B40-E3F0-101B-8488-00AA003E56F8}"
+
+; ---
+
+[-HKEY_CLASSES_ROOT\InternetShortcut]
+
+[HKEY_CLASSES_ROOT\InternetShortcut]
+@="Internet Shortcut"
+"EditFlags"=dword:00000002
+"FriendlyTypeName"="@C:\\WINDOWS\\system32\\ieframe.dll,-10046"
+"FullDetails"="prop:System.Link.TargetUrl;System.Rating;System.Link.Description;System.Link.Comment"
+"InfoTip"="prop:System.Link.TargetUrl;System.Rating;System.Link.Description;System.Link.Comment"
+"IsShortcut"=""
+"NeverShowExt"=""
+"PreviewDetails"="prop:System.Link.TargetUrl;System.Rating;System.History.VisitCount;System.History.DateChanged;System.Link.DateVisited;System.Link.Description;System.Link.Comment"
+
+[HKEY_CLASSES_ROOT\InternetShortcut\CLSID]
+@="{FBF23B40-E3F0-101B-8488-00AA003E56F8}"
+
+[HKEY_CLASSES_ROOT\InternetShortcut\DefaultIcon]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,75,00,72,00,\
+  6c,00,2e,00,64,00,6c,00,6c,00,2c,00,35,00,00,00
+
+[HKEY_CLASSES_ROOT\InternetShortcut\shell]
+@="open"
+"CLSID"="{FBF23B40-E3F0-101B-8488-00AA003E56F8}"
+
+[HKEY_CLASSES_ROOT\InternetShortcut\shell\Open]
+"CLSID"="{FBF23B40-E3F0-101B-8488-00AA003E56F8}"
+"LegacyDisable"=""
+
+[HKEY_CLASSES_ROOT\InternetShortcut\shell\Open\Command]
+@="\"C:\\WINDOWS\\system32\\rundll32.exe\" \"C:\\WINDOWS\\system32\\ieframe.dll\",OpenURL %l"
+
+[HKEY_CLASSES_ROOT\InternetShortcut\shell\print\command]
+@="\"C:\\Windows\\System32\\rundll32.exe\" \"C:\\Windows\\System32\\mshtml.dll\",PrintHTML \"%1\""
+
+[HKEY_CLASSES_ROOT\InternetShortcut\shell\printto\command]
+@="\"C:\\Windows\\System32\\rundll32.exe\" \"C:\\Windows\\System32\\mshtml.dll\",PrintHTML \"%1\" \"%2\" \"%3\" \"%4\""
+
+[HKEY_CLASSES_ROOT\InternetShortcut\ShellEx\ContextMenuHandlers\{FBF23B40-E3F0-101B-8488-00AA003E56F8}]
+@=""
+
+[HKEY_CLASSES_ROOT\InternetShortcut\ShellEx\IconHandler]
+@="{FBF23B40-E3F0-101B-8488-00AA003E56F8}"
+
+[HKEY_CLASSES_ROOT\InternetShortcut\ShellEx\PropertySheetHandlers\{FBF23B40-E3F0-101B-8488-00AA003E56F8}]
+@=""
+
+[HKEY_CLASSES_ROOT\InternetShortcut\tabsets]
+"selection"=dword:00000705
+
+; ---
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.url]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.url\OpenWithList]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.url\OpenWithProgids]
+"InternetShortcut"=hex(0):
+
+; ---
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked]
+"{FBF23B40-E3F0-101B-8488-00AA003E56F8}"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked]
+"{FBF23B40-E3F0-101B-8488-00AA003E56F8}"=-
